@@ -13,4 +13,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.0.2" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.0.1" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="hosting.json" />
+  </ItemGroup>
 </Project>
