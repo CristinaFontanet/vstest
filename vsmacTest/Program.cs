@@ -19,7 +19,8 @@ namespace vsmacTest
 			
             var host = new WebHostBuilder()
 				.UseConfiguration(config)
-                .UseKestrel()
+				.UseKestrel()
+				.UseUrls("http://localhost:5000")
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
